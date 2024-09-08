@@ -707,31 +707,8 @@ h5 {
   height: auto; /* Maintains aspect ratio */
   border-radius: 10px;
 }
-.hero-img {
-  width: 100px; /* Set the desired width */
-  height: 4px; /* Set the desired height */
-  border-radius: 50%; /* Adjust to maintain an ellipse shape */
-  background-image: url(/img/hero/hero.png);
-  background-size: cover; /* Ensure the image covers the shape */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent repetition */
-}
 
-/* Make it responsive */
-@media (max-width: 768px) {
-  .hero-img {
-    width: 80px; /* Decrease width on smaller screens */
-    height: 340px; /* Decrease height for smaller screens */
-    border-radius: 50%; /* Keep the ellipse shape */
-  }
-}
 
-@media (min-width: 1200px) {
-  .hero-img {
-    width: 100px; /* Increase width for larger screens */
-    height: 600px; /* Increase height for larger screens */
-  }
-}
 
 
 
