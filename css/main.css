@@ -24,12 +24,16 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
 body {
   color: var(--main-text-color);
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right, #f9dd8a, #ff8800); 
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+  background: url(img/bg.svg) no-repeat center center; /* Combine properties for conciseness */
+  background-size: cover; /* Scale the SVG to cover the entire background */
 }
+
 
 
 .container {

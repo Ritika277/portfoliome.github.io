@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" style="background-color: #c558ff ;" viewBox="0 0 800 600">
+  <!-- Bubble group starting from the center -->
+  <circle cx="400" cy="300" r="25" fill="white" opacity="0.7">
+    <animate attributeName="cx" values="400;50;100;200;400" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;0;150;600;300" dur="6s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="30" fill="white" opacity="0.5">
+    <animate attributeName="cx" values="400;600;700;500;400" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;600;450;0;300" dur="5s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="35" fill="white" opacity="0.6">
+    <animate attributeName="cx" values="400;300;200;100;400" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;400;500;600;300" dur="7s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="40" fill="white" opacity="0.4">
+    <animate attributeName="cx" values="400;450;500;700;400" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;100;200;400;300" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="28" fill="white" opacity="0.8">
+    <animate attributeName="cx" values="400;0;200;300;400" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;500;400;0;300" dur="6s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Additional bubbles starting from the center -->
+  <circle cx="400" cy="300" r="26" fill="white" opacity="0.5">
+    <animate attributeName="cx" values="400;150;350;450;400" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;600;100;200;300" dur="5s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="50" fill="white" opacity="0.3">
+    <animate attributeName="cx" values="400;600;700;500;400" dur="8s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;100;50;200;300" dur="8s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="32" fill="white" opacity="0.6">
+    <animate attributeName="cx" values="400;250;100;200;400" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;450;600;100;300" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="38" fill="white" opacity="0.7">
+    <animate attributeName="cx" values="400;700;600;300;400" dur="6s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;100;0;400;300" dur="6s" repeatCount="indefinite" />
+  </circle>
+
+  <circle cx="400" cy="300" r="34" fill="white" opacity="0.5">
+    <animate attributeName="cx" values="400;550;650;700;400" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;400;500;600;300" dur="5s" repeatCount="indefinite" />
+  </circle>
+</svg>
